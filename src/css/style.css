@@ -1,74 +1,74 @@
 @import url(animations.css);
 
 .container {
-   height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background: linear-gradient(#121212, #212b46)
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(#121212, #212b46);
 }
 
 .title {
-    font-size: 85px;
-    color: #fff;
-    animation: flipTitle 2s;
+  font-size: 85px;
+  color: #fff;
+  animation: flipTitle 2s;
 }
 
 .container-input {
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 15px;
-    margin: 35px 0;
-    display: flex;
-    border-radius: 8px;
-    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  margin: 35px 0;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
 }
 
 .container-input input {
-    background-color: transparent;
-    border: none;
-    font-size: 20px;
-    color: #fff;
-    outline: none;
-    margin-right: 30px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  outline: none;
+  margin-right: 30px;
 }
 
 .container-input input::placeholder {
-    color: #f1f1f1;
+  color: #f1f1f1;
 }
 
 .button-search {
-    background-color: transparent;
-    border: none;
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: .3s; 
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .button-search:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
 }
 
 .main h2 {
-    margin: 16px 0;
-    font-size: 39px;
+  margin: 16px 0;
+  font-size: 39px;
 }
 
 .main span {
-    margin-bottom: 16px;
-    font-size: 18px;
+  margin-bottom: 16px;
+  font-size: 18px;
 }
 
 #error {
-    background-color: red;
+  background-color: red;
 }
